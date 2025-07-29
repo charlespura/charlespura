@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @charlespura
 - 👀 I’m interested in Web Development 
-- 🌱 I’m currently 3rd Year Bsit 
+- 🌱 I’m currently 4th Year Bsit 
 
 How to reach me 
 Charles Pura Fb
