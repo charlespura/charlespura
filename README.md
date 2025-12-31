@@ -21,14 +21,14 @@
 
 ### 📊 GitHub Stats
 
-#### 🔥 Contribution Streak  
+### 🔥 Contribution Streak  
 ![GitHub Streak](https://streak-stats.demolab.com?user=charlespura&theme=tokyonight)
 
-#### 📈 Overall Stats  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=charlespura&show_icons=true&theme=tokyonight)
+### 📈 Overall Stats  
+![Charles' GitHub Stats](https://github-readme-stats.vercel.app/api?username=charlespura&show_icons=true&theme=tokyonight&rank_icon=github)
 
-#### 🧠 Top Languages  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=charlespura&layout=compact&theme=tokyonight)
+### 🧠 Top Languages  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=charlespura&layout=compact&theme=tokyonight)
 
 ---
 
