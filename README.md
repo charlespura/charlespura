@@ -1,39 +1,56 @@
-<h1 align="center">👋 Hi, I'm Charles Pura</h1>
-<h3 align="center">Aspiring Web Developer | BSIT Student</h3>
+# 👋 Hi, I'm Charles Pura
+
+### 🚀 Aspiring Web Developer | 4th Year BSIT Student
 
 ---
 
-### 🚀 About Me
-- 👀 I’m passionate about **Web Development**
-- 🌱 Currently a **4th Year BSIT Student**
-- 💡 I enjoy building projects that help me grow my skills
+## 📌 About Me
+- 👀 Interested in **Web Development**
+- 🌱 Currently studying **BSIT (4th Year)**
+- 💡 I love building and exploring new ideas through code
 
 ---
 
-### 📫 Connect With Me
-<p>
-  <a href="https://www.facebook.com/Charles Pura" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
-  </a>
-</p>
+## 📫 How to Reach Me
+- 🌐 **Portfolio:** https://cpportfolio.onrender.com  
+- 📘 **Facebook:** https://web.facebook.com/charlespuracp  
+- 📧 **Email:** charles051902pura@gmail.com  
 
 ---
 
-### 📊 GitHub Stats
+## 🛠️ Skills
+### **Languages**
+- HTML  
+- CSS  
+- JavaScript  
 
-### 🔥 Contribution Streak  
-![GitHub Streak](https://streak-stats.demolab.com?user=charlespura&theme=tokyonight)
-
-### 📈 Overall Stats  
-![Charles' GitHub Stats](https://github-readme-stats.vercel.app/api?username=charlespura&show_icons=true&theme=tokyonight&rank_icon=github)
-
-### 🧠 Top Languages  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=charlespura&layout=compact&theme=tokyonight)
+### **Tools / Tech**
+- Git & GitHub  
+- VS Code  
+- (Add frameworks like React, NodeJS, etc. if you use them)
 
 ---
 
-### ✨ Fun Quote  
-> "Code is like humor — when you have to explain it, it’s bad."
+## 📁 Featured Projects
+*(Recommend adding 2–4 of your best projects here)*
+
+- **My Portfolio Website** – Built with your own design & skills  
+- *(Add more projects here once you want to showcase them)*
+
+---
+
+## 📅 GitHub Activity (Image-Free Version)
+To keep the profile clean and error-free, this version does not use external images.
+
+### ✔️ Tips  
+- Pin your best repositories  
+- Keep committing regularly  
+- Add more personal projects
+
+---
+
+## 📝 Quote
+> *"Every day is a new chance to become a better developer."*
 
 ---
 
