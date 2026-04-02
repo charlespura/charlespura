@@ -11,7 +11,7 @@
 - 🎯 Passionate about creating **dynamic, responsive, and user-friendly web apps**
 
 ---
-
+ok try nga 
 ## 🛠️ Technologies & Tools
 
 ### Frontend
