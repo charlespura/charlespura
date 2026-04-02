@@ -27,9 +27,15 @@
 
 ## GitHub Snapshot
 
-- Profile snapshot: **1,343 contributions in the last year**
+- Profile snapshot: **1,344 contributions in the last year**
+- Repositories: **59**
+- Followers: **22**
+- Following: **2**
+- Stars: **1**
 - Active across **40+ repositories**
 - Contributed to projects like **webhr3**, **charlespuraportfolio**, and **public_html**
+- Recent activity in **April 2026**:
+  **charlespuraportfolio** with 8 commits, **charlespura** with 2 commits, and **groq-Chatbot** with 2 commits
 
 ## Technologies & Tools
 
@@ -66,47 +72,33 @@
 
 ## GitHub Stats
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=charlespura&show_icons=true&hide_border=true&theme=algolia&count_private=true" alt="Charles Pura GitHub stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=charlespura&theme=algolia&hide_border=true" alt="Charles Pura GitHub streak" />
-</div>
+- Last year contributions: **1,344**
+- Public repositories: **59**
+- Commits are your strongest activity type: **100% commits**
+- Contributed to **40+ repositories**
+- Recent repositories with commits:
+  **charlespuraportfolio**, **charlespura**, **groq-Chatbot**
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=charlespura&layout=compact&hide_border=true&theme=algolia" alt="Top languages" />
-</div>
+## Contribution Highlights
 
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=charlespura&theme=react-dark&hide_border=true&area=true" alt="Contribution graph" />
-</div>
+| Category | Details |
+| --- | --- |
+| Main focus | Web development and application building |
+| Strong activity | Commits |
+| Active years shown | 2024, 2025, 2026 |
+| Recent contribution | `groq-Chatbot` on **April 1, 2026** |
+| Collaboration footprint | `webhr3`, `charlespuraportfolio`, `public_html`, and 39 other repositories |
 
 ## Featured Projects
 
-<div align="center">
-  <a href="https://github.com/charlespura/3d-Portfolio-Free">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=charlespura&repo=3d-Portfolio-Free&theme=algolia&hide_border=true" alt="3d-Portfolio-Free" />
-  </a>
-  <a href="https://github.com/charlespura/Blpc-Qr-Navigation-System">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=charlespura&repo=Blpc-Qr-Navigation-System&theme=algolia&hide_border=true" alt="Blpc-Qr-Navigation-System" />
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://github.com/charlespura/Budget-Tracker">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=charlespura&repo=Budget-Tracker&theme=algolia&hide_border=true" alt="Budget-Tracker" />
-  </a>
-  <a href="https://github.com/charlespura/Chars-Budget-Tracker">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=charlespura&repo=Chars-Budget-Tracker&theme=algolia&hide_border=true" alt="Chars-Budget-Tracker" />
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://github.com/charlespura/chDogAdoptionManagementSystem">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=charlespura&repo=chDogAdoptionManagementSystem&theme=algolia&hide_border=true" alt="chDogAdoptionManagementSystem" />
-  </a>
-  <a href="https://github.com/charlespura/chIPON-CHALLENGE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=charlespura&repo=chIPON-CHALLENGE&theme=algolia&hide_border=true" alt="chIPON-CHALLENGE" />
-  </a>
-</div>
+| Project | Tech |
+| --- | --- |
+| [3d-Portfolio-Free](https://github.com/charlespura/3d-Portfolio-Free) | CSS |
+| [Blpc-Qr-Navigation-System](https://github.com/charlespura/Blpc-Qr-Navigation-System) | PHP |
+| [Budget-Tracker](https://github.com/charlespura/Budget-Tracker) | PHP |
+| [Chars-Budget-Tracker](https://github.com/charlespura/Chars-Budget-Tracker) | JavaScript |
+| [chDogAdoptionManagementSystem](https://github.com/charlespura/chDogAdoptionManagementSystem) | TypeScript |
+| [chIPON-CHALLENGE](https://github.com/charlespura/chIPON-CHALLENGE) | JavaScript |
 
 ## How to Reach Me
 
