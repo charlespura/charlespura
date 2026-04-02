@@ -1,0 +1,22 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" rx="28" fill="#061826"/>
+  <rect x="24" y="24" width="1152" height="272" rx="22" fill="url(#bg)"/>
+  <circle cx="1030" cy="70" r="110" fill="#0EA5E9" opacity="0.12"/>
+  <circle cx="1088" cy="248" r="148" fill="#22C55E" opacity="0.1"/>
+  <circle cx="160" cy="272" r="140" fill="#38BDF8" opacity="0.08"/>
+  <rect x="72" y="66" width="164" height="164" rx="26" fill="#082F49" stroke="#38BDF8" stroke-width="2"/>
+  <text x="154" y="165" text-anchor="middle" fill="#E0F2FE" font-family="Verdana, Arial, sans-serif" font-size="54" font-weight="700">CP</text>
+  <text x="282" y="116" fill="#F8FAFC" font-family="Verdana, Arial, sans-serif" font-size="42" font-weight="700">Charles Pura</text>
+  <text x="282" y="156" fill="#7DD3FC" font-family="Verdana, Arial, sans-serif" font-size="23" font-weight="600">Aspiring Web Developer</text>
+  <text x="282" y="188" fill="#BAE6FD" font-family="Verdana, Arial, sans-serif" font-size="21">4th Year BSIT Student • Quezon City</text>
+  <text x="282" y="232" fill="#E2E8F0" font-family="Verdana, Arial, sans-serif" font-size="20">Building dynamic, responsive, and user-friendly web apps</text>
+  <rect x="282" y="252" width="222" height="34" rx="17" fill="#0EA5E9"/>
+  <text x="393" y="274" text-anchor="middle" fill="#F8FAFC" font-family="Verdana, Arial, sans-serif" font-size="16" font-weight="700">charlespura • github profile</text>
+  <defs>
+    <linearGradient id="bg" x1="44" y1="26" x2="1158" y2="306" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#082F49"/>
+      <stop offset="0.5" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#14532D"/>
+    </linearGradient>
+  </defs>
+</svg>

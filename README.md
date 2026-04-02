@@ -2,10 +2,14 @@
 
 # Hi, I'm Charles Pura
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0EA5E9&center=true&vCenter=true&width=900&lines=Aspiring+Web+Developer;4th+Year+BSIT+Student;Building+dynamic%2C+responsive%2C+user-friendly+web+apps;Always+learning%2C+building%2C+and+improving" alt="Typing SVG" />
+![Charles Pura Banner](./assets/charles-pura-banner.svg)
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0EA5E9&center=true&vCenter=true&width=900&lines=Aspiring+Web+Developer;4th+Year+BSIT+Student;Building+dynamic%2C+responsive%2C+user-friendly+web+apps;Always+learning%2C+building%2C+and+improving)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-0F172A?style=for-the-badge&logo=google-chrome&logoColor=white)](https://cpportfolio.onrender.com)
 [![Facebook](https://img.shields.io/badge/Facebook-Charles%20Pura-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://web.facebook.com/charlespuracp)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-charlespura-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/charlespura)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0004--3419--8788-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-3419-8788)
 [![Email](https://img.shields.io/badge/Email-charles051902pura%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:charles051902pura@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=charlespura&style=for-the-badge&color=0ea5e9)](https://github.com/charlespura)
 
@@ -13,6 +17,8 @@
 
 ## About Me
 
+- Pronouns: **he/him**
+- Based in **Quezon City**
 - Interested in **Web Development**
 - Currently studying **BSIT (4th Year)**
 - I love building and exploring new ideas through code
@@ -106,6 +112,9 @@
 
 - Portfolio: [cpportfolio.onrender.com](https://cpportfolio.onrender.com)
 - Facebook: [Charles Pura](https://web.facebook.com/charlespuracp)
+- LinkedIn: [linkedin.com/in/charlespura](https://www.linkedin.com/in/charlespura)
+- ORCID: [0009-0004-3419-8788](https://orcid.org/0009-0004-3419-8788)
+- GitHub: [github.com/charlespura](https://github.com/charlespura)
 - Email: [charles051902pura@gmail.com](mailto:charles051902pura@gmail.com)
 
 ## Let's Connect
