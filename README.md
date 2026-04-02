@@ -73,42 +73,33 @@ Live cards below update automatically on GitHub. In raw source view you will onl
   <img height="170" src="https://streak-stats.demolab.com?user=charlespura&theme=algolia&hide_border=true" alt="Charles Pura GitHub streak" />
 </div>
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=charlespura&layout=compact&hide_border=true&theme=algolia" alt="Top languages" />
-</div>
+<p align="center">
+  If the cards do not load here, view this README in Markdown preview or on my GitHub profile.
+</p>
 
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=charlespura&theme=react-dark&hide_border=true&area=true" alt="Contribution graph" />
-</div>
+## Top Languages
+
+Reliable fallback based on your projects and stack:
+
+- HTML
+- CSS
+- JavaScript
+- PHP
+- TypeScript
+- Java
 
 ## Featured Projects
 
-<div align="center">
-  <a href="https://github.com/charlespura/3d-Portfolio-Free">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=charlespura&repo=3d-Portfolio-Free&theme=algolia&hide_border=true" alt="3d-Portfolio-Free" />
-  </a>
-  <a href="https://github.com/charlespura/Blpc-Qr-Navigation-System">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=charlespura&repo=Blpc-Qr-Navigation-System&theme=algolia&hide_border=true" alt="Blpc-Qr-Navigation-System" />
-  </a>
-</div>
+Reliable fallback with direct links:
 
-<div align="center">
-  <a href="https://github.com/charlespura/Budget-Tracker">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=charlespura&repo=Budget-Tracker&theme=algolia&hide_border=true" alt="Budget-Tracker" />
-  </a>
-  <a href="https://github.com/charlespura/Chars-Budget-Tracker">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=charlespura&repo=Chars-Budget-Tracker&theme=algolia&hide_border=true" alt="Chars-Budget-Tracker" />
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://github.com/charlespura/chDogAdoptionManagementSystem">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=charlespura&repo=chDogAdoptionManagementSystem&theme=algolia&hide_border=true" alt="chDogAdoptionManagementSystem" />
-  </a>
-  <a href="https://github.com/charlespura/chIPON-CHALLENGE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=charlespura&repo=chIPON-CHALLENGE&theme=algolia&hide_border=true" alt="chIPON-CHALLENGE" />
-  </a>
-</div>
+| Project | Tech |
+| --- | --- |
+| [3d-Portfolio-Free](https://github.com/charlespura/3d-Portfolio-Free) | CSS |
+| [Blpc-Qr-Navigation-System](https://github.com/charlespura/Blpc-Qr-Navigation-System) | PHP |
+| [Budget-Tracker](https://github.com/charlespura/Budget-Tracker) | PHP |
+| [Chars-Budget-Tracker](https://github.com/charlespura/Chars-Budget-Tracker) | JavaScript |
+| [chDogAdoptionManagementSystem](https://github.com/charlespura/chDogAdoptionManagementSystem) | TypeScript |
+| [chIPON-CHALLENGE](https://github.com/charlespura/chIPON-CHALLENGE) | JavaScript |
 
 ## How to Reach Me
 
