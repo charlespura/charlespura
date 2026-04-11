@@ -68,6 +68,8 @@
 
 Live cards below update automatically on GitHub. In raw source view you will only see the Markdown code, so open Markdown preview or your GitHub profile page to see the images.
 
+> Note: The “Total Contributions” number comes from the streak card (`streak-stats.demolab.com`) and typically counts **public** contributions only (and can be cached), so it may not match the “contributions in the last year” number on your GitHub profile (which can include **private** contributions if you enabled that setting).
+
 <div align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=charlespura&show_icons=true&hide_border=true&theme=algolia&count_private=true&include_all_commits=true" alt="Charles Pura GitHub stats" />
   <img height="170" src="https://streak-stats.demolab.com?user=charlespura&theme=algolia&hide_border=true" alt="Charles Pura GitHub streak" />
