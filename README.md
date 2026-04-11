@@ -72,7 +72,7 @@ Live cards below update automatically on GitHub. In raw source view you will onl
 
 <div align="center">
   <img height="170" src="https://charlespura.github.io/gtihubstats/stats.svg" alt="Charles Pura GitHub stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=charlespura&theme=algolia&hide_border=true" alt="Charles Pura GitHub streak" />
+  
 </div>
 
 <p align="center">
