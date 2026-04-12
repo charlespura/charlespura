@@ -64,6 +64,14 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
+## 🚀 Deployment & Hosting
+
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?style=for-the-badge&logo=github&logoColor=white)
+![Cloud Server](https://img.shields.io/badge/Cloud%20Server-indevfinite-blue?style=for-the-badge&logo=icloud&logoColor=white)
+
+
 ## GitHub Stats
 
 Live cards below update automatically on GitHub. In raw source view you will only see the Markdown code, so open Markdown preview or your GitHub profile page to see the images.
