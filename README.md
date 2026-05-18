@@ -3,6 +3,7 @@
 
 # Hi, I'm Charles Pura
 
+
 ![Charles Pura Banner](./assets/charles-pura-banner.svg)
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0EA5E9&center=true&vCenter=true&width=900&lines=Aspiring+Web+Developer;4th+Year+BSIT+Student;Building+dynamic%2C+responsive%2C+user-friendly+web+apps;Always+learning%2C+building%2C+and+improving)
