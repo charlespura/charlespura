@@ -30,7 +30,6 @@
 - Active across **40+ repositories**
 - Contributed to projects like **webhr3**, **charlespuraportfolio**, and **public_html**
 - Recent work includes **charlespuraportfolio**, **charlespura**, and **groq-Chatbot**
-
 ## Technologies & Tools
 
 ### Frontend
@@ -59,10 +58,14 @@
 
 ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
 
-### Tools
+### Tools & Apps
 
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-121013?style=for-the-badge&logo=github&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ## Deployment & Hosting
 
@@ -70,7 +73,6 @@
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?style=for-the-badge&logo=github&logoColor=white)
 ![Cloud Server](https://img.shields.io/badge/Cloud%20Server-indevfinite-blue?style=for-the-badge&logo=icloud&logoColor=white)
-
 
 ## GitHub Stats
 
