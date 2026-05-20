@@ -1,10 +1,11 @@
-<div align="center">
+<div align="center"> 
+
 
 # Hi, I'm Charles Pura
 
 ![Charles Pura Banner](./assets/charles-pura-banner.svg)
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0EA5E9&center=true&vCenter=true&width=900&lines=Aspiring+Web+Developer;4th+Year+BSIT+Student;Building+dynamic%2C+responsive%2C+user-friendly+web+apps;Always+learning%2C+building%2C+and+improving)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0EA5E9&center=true&vCenter=true&width=900&lines=Aspiring+Web+Developer;BSIT+Graduated+-+Cum+Laude;Building+dynamic%2C+responsive%2C+user-friendly+web+apps;Always+learning%2C+building%2C+and+improving)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-0F172A?style=for-the-badge&logo=google-chrome&logoColor=white)](https://cpportfolio.onrender.com)
 [![Facebook](https://img.shields.io/badge/Facebook-Charles%20Pura-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://web.facebook.com/charlespuracp)
@@ -62,6 +63,14 @@
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+## Deployment & Hosting
+
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?style=for-the-badge&logo=github&logoColor=white)
+![Cloud Server](https://img.shields.io/badge/Cloud%20Server-indevfinite-blue?style=for-the-badge&logo=icloud&logoColor=white)
+
 
 ## GitHub Stats
 
