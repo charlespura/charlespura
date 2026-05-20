@@ -12,7 +12,6 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--3419--8788-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0004-3419-8788)
 [![Email](https://img.shields.io/badge/Email-charles051902pura%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:charles051902pura@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=charlespura&style=for-the-badge&color=0ea5e9)](https://github.com/charlespura)
-
 </div>
 
 ## About Me
