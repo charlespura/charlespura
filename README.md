@@ -1,6 +1,5 @@
 <div align="center"> 
 
-
 # Hi, I'm Charles Pura
 
 ![Charles Pura Banner](./assets/charles-pura-banner.svg)
