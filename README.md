@@ -25,7 +25,7 @@
 
 ## GitHub Snapshot
 
-- Active across **40+ repositories**
+- Active across **84+ repositories**
 - Contributed to projects like **webhr3**, **charlespuraportfolio**, and **public_html**
 - Recent work includes **charlespuraportfolio**, **charlespura**, and **groq-Chatbot**
 ## Technologies & Tools
