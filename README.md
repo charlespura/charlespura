@@ -91,9 +91,7 @@ Live cards below update automatically on GitHub. In raw source view you will onl
   
 </div>
 
-<p align="center">
-  If the cards do not load here, view this README in Markdown preview or on my GitHub profile.
-</p>
+
 
 <div align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=charlespura&theme=react-dark&hide_border=true&area=true" alt="Contribution graph" />
