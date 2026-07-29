@@ -84,11 +84,11 @@
 
 The cards below update automatically using GitHub data and showcase my development activity, coding consistency, and open-source contributions.
 
-🚀 GitHub Actions automatically generates my daily portfolio analytics report.
-🔄 CI/CD pipeline commits the latest analytics report to this repository every day.
-☁️ Render Auto Deploy automatically rebuilds and deploys my portfolio whenever new changes are pushed.
-📊 Automated reporting retrieves visitor statistics from Firebase and generates a Markdown report.
-🔥 Daily commit history reflects both ongoing development and scheduled automation that keeps the project up to date.
+!🚀 GitHub Actions automatically generates my daily portfolio analytics report.
+!🔄 CI/CD pipeline commits the latest analytics report to this repository every day.
+!☁️ Render Auto Deploy automatically rebuilds and deploys my portfolio whenever new changes are pushed.
+!📊 Automated reporting retrieves visitor statistics from Firebase and generates a Markdown report.
+!🔥 Daily commit history reflects both ongoing development and scheduled automation that keeps the project up to date.
 
 
 <div align="center">
