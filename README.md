@@ -82,9 +82,14 @@
 
 ## GitHub Stats
 
-Live cards below update automatically on GitHub. In raw source view you will only see the Markdown code, so open Markdown preview or your GitHub profile page to see the images.
+The cards below update automatically using GitHub data and showcase my development activity, coding consistency, and open-source contributions.
 
-> Note: The “Total Contributions” number comes from the streak card (`streak-stats.demolab.com`) and typically counts **public** contributions only (and can be cached), so it may not match the “contributions in the last year” number on your GitHub profile (which can include **private** contributions if you enabled that setting).
+🚀 GitHub Actions automatically generates my daily portfolio analytics report.
+🔄 CI/CD pipeline commits the latest analytics report to this repository every day.
+☁️ Render Auto Deploy automatically rebuilds and deploys my portfolio whenever new changes are pushed.
+📊 Automated reporting retrieves visitor statistics from Firebase and generates a Markdown report.
+🔥 Daily commit history reflects both ongoing development and scheduled automation that keeps the project up to date.
+
 
 <div align="center">
   <img height="170" src="https://charlespura.github.io/gtihubstats/stats.svg" alt="Charles Pura GitHub stats" />
