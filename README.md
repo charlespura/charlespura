@@ -18,15 +18,14 @@
 
 - Pronouns: **he/him**
 - Based in **Quezon City**
-- Interested in **Web Development**
-- Currently studying **BSIT (4th Year)**
+- Interested in **Web Development, Software Development**
 - I love building and exploring new ideas through code
 - Passionate about creating **dynamic, responsive, and user-friendly web apps**
 - Open to **collaboration, mentorship, and tech conversations**
 
 ## GitHub Snapshot
 
-- Active across **84+ repositories**
+- Active across **88+ repositories**
 - Contributed to projects like **webhr3**, **charlespuraportfolio**, and **public_html**
 - Recent work includes **charlespuraportfolio**, **charlespura**, and **groq-Chatbot**
 ## Technologies & Tools
