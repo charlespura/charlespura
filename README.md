@@ -18,7 +18,7 @@
 
 - Pronouns: **he/him**
 - Based in **Quezon City**
-- Interested in **Web Development, Software Development**
+- Interested in **Web Development, Software Development, App Native Development**
 - I love building and exploring new ideas through code
 - Passionate about creating **dynamic, responsive, and user-friendly web apps**
 - Open to **collaboration, mentorship, and tech conversations**
