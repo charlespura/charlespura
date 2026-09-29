@@ -150,7 +150,7 @@ Reliable fallback with direct links:
 
 ## How to Reach Me
 
-- Portfolio: [cpportfolio.onrender.com](https://cpportfolio.onrender.com)
+- Portfolio: [charlespura.onrender.com](https://charlespura.onrender.com)
 - Facebook: [Charles Pura](https://web.facebook.com/charlespuracp)
 - LinkedIn: [linkedin.com/in/charlespura](https://www.linkedin.com/in/charlespura)
 - ORCID: [0009-0004-3419-8788](https://orcid.org/0009-0004-3419-8788)
