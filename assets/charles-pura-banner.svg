@@ -1,22 +1,72 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="320" rx="28" fill="#061826"/>
-  <rect x="24" y="24" width="1152" height="272" rx="22" fill="url(#bg)"/>
-  <circle cx="1030" cy="70" r="110" fill="#0EA5E9" opacity="0.12"/>
-  <circle cx="1088" cy="248" r="148" fill="#22C55E" opacity="0.1"/>
-  <circle cx="160" cy="272" r="140" fill="#38BDF8" opacity="0.08"/>
-  <rect x="72" y="66" width="164" height="164" rx="26" fill="#082F49" stroke="#38BDF8" stroke-width="2"/>
-  <text x="154" y="165" text-anchor="middle" fill="#E0F2FE" font-family="Verdana, Arial, sans-serif" font-size="54" font-weight="700">CP</text>
-  <text x="282" y="116" fill="#F8FAFC" font-family="Verdana, Arial, sans-serif" font-size="42" font-weight="700">Charles Pura</text>
-  <text x="282" y="156" fill="#7DD3FC" font-family="Verdana, Arial, sans-serif" font-size="23" font-weight="600">Aspiring Web Developer</text>
-  <text x="282" y="188" fill="#BAE6FD" font-family="Verdana, Arial, sans-serif" font-size="21">BSIT Graduate (Cum Laude) • Quezon City</text>
-  <text x="282" y="232" fill="#E2E8F0" font-family="Verdana, Arial, sans-serif" font-size="20">Building dynamic, responsive, and user-friendly web apps</text>
-  <rect x="282" y="252" width="222" height="34" rx="17" fill="#0EA5E9"/>
-  <text x="393" y="274" text-anchor="middle" fill="#F8FAFC" font-family="Verdana, Arial, sans-serif" font-size="16" font-weight="700">charlespura • github profile</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="banner-title banner-description">
+  <title id="banner-title">Charles Pura — Full-Stack Developer</title>
+  <desc id="banner-description">Charles Pura, a full-stack developer based in Quezon City, Philippines. Web applications. Thoughtful interfaces. A subtle grid and layered code window decorate the dark navy banner.</desc>
+
   <defs>
-    <linearGradient id="bg" x1="44" y1="26" x2="1158" y2="306" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#082F49"/>
-      <stop offset="0.5" stop-color="#0F172A"/>
-      <stop offset="1" stop-color="#14532D"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#101C2D"/>
     </linearGradient>
+    <linearGradient id="accent" x1="64" y1="0" x2="1136" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.07"/>
+    </pattern>
+    <clipPath id="banner-clip">
+      <rect width="1200" height="360" rx="24"/>
+    </clipPath>
   </defs>
+
+  <g clip-path="url(#banner-clip)">
+    <rect width="1200" height="360" fill="url(#background)"/>
+    <rect x="704" width="496" height="360" fill="url(#grid)"/>
+    <path d="M704 0V360" stroke="#94A3B8" stroke-opacity="0.06"/>
+    <path d="M64 359H1136" stroke="url(#accent)" stroke-opacity="0.5"/>
+
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <circle cx="69" cy="69" r="4" fill="#2DD4BF"/>
+      <text x="84" y="74" fill="#94A3B8" font-size="15" letter-spacing="1.1">QUEZON CITY, PHILIPPINES</text>
+      <text x="60" y="151" fill="#F1F5F9" font-size="66" font-weight="700" letter-spacing="-2">Charles Pura</text>
+      <text x="64" y="198" fill="#38BDF8" font-size="27" font-weight="600">Full-Stack Developer</text>
+      <text x="64" y="245" fill="#CBD5E1" font-size="22">Web applications. Thoughtful interfaces.</text>
+    </g>
+
+    <path d="M64 290H108" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <text x="122" y="295" fill="#64748B" font-family="Consolas, Courier New, monospace" font-size="13" letter-spacing="1.2">CHARLESPURA / GITHUB</text>
+
+    <g aria-hidden="true">
+      <rect x="798" y="57" width="338" height="216" rx="13" fill="#0D1B2B" stroke="#23374B"/>
+      <rect x="782" y="70" width="338" height="216" rx="13" fill="#0D1929" stroke="#294259"/>
+      <rect x="766" y="83" width="338" height="216" rx="13" fill="#0B1422" stroke="#35516A"/>
+      <path d="M766 121H1104" stroke="#23374B"/>
+
+      <circle cx="786" cy="102" r="3.5" fill="#475569"/>
+      <circle cx="799" cy="102" r="3.5" fill="#475569"/>
+      <circle cx="812" cy="102" r="3.5" fill="#475569"/>
+      <text x="1084" y="106" text-anchor="end" fill="#64748B" font-family="Consolas, Courier New, monospace" font-size="11" letter-spacing="0.8">BUILD / CREATE / REFINE</text>
+
+      <path d="M809 157L795 170L809 183M847 157L861 170L847 183M835 151L821 189" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="889" y="157" width="104" height="6" rx="3" fill="#2DD4BF" fill-opacity="0.8"/>
+      <rect x="889" y="172" width="174" height="5" rx="2.5" fill="#334155"/>
+      <rect x="889" y="186" width="132" height="5" rx="2.5" fill="#334155"/>
+
+      <path d="M795 217H1075" stroke="#23374B"/>
+      <path d="M846 246H935M935 246H1024" stroke="#35516A"/>
+      <circle cx="891" cy="246" r="3" fill="#2DD4BF"/>
+      <circle cx="980" cy="246" r="3" fill="#38BDF8"/>
+
+      <rect x="795" y="230" width="67" height="32" rx="6" fill="#11283A" stroke="#25475D"/>
+      <rect x="902" y="230" width="67" height="32" rx="6" fill="#102C30" stroke="#24524F"/>
+      <rect x="1009" y="230" width="67" height="32" rx="6" fill="#11283A" stroke="#25475D"/>
+      <g font-family="Consolas, Courier New, monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="1">
+        <text x="828.5" y="250" fill="#7DD3FC">UI</text>
+        <text x="935.5" y="250" fill="#5EEAD4">API</text>
+        <text x="1042.5" y="250" fill="#7DD3FC">DATA</text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="23.5" stroke="#23374B"/>
 </svg>
