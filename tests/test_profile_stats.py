@@ -1,18 +1,14 @@
 """Focused checks for source provenance, partial history, and safe output updates."""
 
 from datetime import date, timedelta
-import importlib.util
 from pathlib import Path
-import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 import xml.etree.ElementTree as ET
 
 
-SPEC = importlib.util.spec_from_file_location("profile_stats", Path(__file__).parents[1] / "scripts" / "update_profile_stats.py")
-stats = importlib.util.module_from_spec(SPEC)
-sys.modules[SPEC.name] = stats
-SPEC.loader.exec_module(stats)
+from scripts import update_profile_stats as stats
 
 
 def snapshot():
@@ -80,20 +76,20 @@ class ProfileStatsTests(unittest.TestCase):
     def test_bad_source_preserves_existing_assets(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
-            for name in ("github-stats.svg", "contribution-graph.svg", "contribution-calendar.svg"):
+            for name in ("github-stats.svg", "contribution-graph.svg", "contribution-calendar.svg", "contribution-snake.svg"):
                 (root / name).write_text("last good SVG", encoding="utf-8")
             data = snapshot()
             data["heatmap"]["days"] = []
             with self.assertRaises(ValueError):
                 stats.generate(data, root)
-            self.assertEqual([p.read_text() for p in root.glob("*.svg")], ["last good SVG"] * 3)
+            self.assertEqual([p.read_text() for p in root.glob("*.svg")], ["last good SVG"] * 4)
 
     def test_generated_svgs_parse_and_unchanged_snapshot_is_deterministic(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
             stats.generate(snapshot(), root)
             first = {p.name: p.read_bytes() for p in root.glob("*.svg")}
-            self.assertEqual(len(first), 3)
+            self.assertEqual(len(first), 4)
             for content in first.values():
                 svg = ET.fromstring(content)
                 self.assertEqual(svg.attrib["role"], "img")
@@ -101,6 +97,16 @@ class ProfileStatsTests(unittest.TestCase):
                 self.assertTrue(svg.find("{http://www.w3.org/2000/svg}desc").text)
             stats.generate(snapshot(), root)
             self.assertEqual(first, {p.name: p.read_bytes() for p in root.glob("*.svg")})
+
+    def test_failed_snake_render_preserves_all_graphics(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            stats.generate(snapshot(), root)
+            before = {p.name: p.read_bytes() for p in root.glob("*.svg")}
+            with patch.object(stats, "render_snake", side_effect=ValueError("Cannot render the snake")):
+                with self.assertRaises(ValueError):
+                    stats.generate(snapshot(), root)
+            self.assertEqual(before, {p.name: p.read_bytes() for p in root.glob("*.svg")})
 
     def test_svg_text_is_escaped(self):
         fragment = stats.text(1, 2, '<unsafe> & "quoted"')

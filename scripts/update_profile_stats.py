@@ -24,6 +24,11 @@ import tempfile
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
+if __package__:
+    from .contribution_snake import render_snake
+else:
+    from contribution_snake import render_snake
+
 
 BG = "#0B1220"
 PANEL = "#101C2D"
@@ -241,6 +246,7 @@ def generate(snapshot: dict, output_dir: Path) -> None:
         "github-stats.svg": overview(profile, collection, days, stamp),
         "contribution-graph.svg": recent_graph(days, stamp),
         "contribution-calendar.svg": calendar_graph(days, stamp),
+        "contribution-snake.svg": render_snake(days, stamp),
     }
     # Fetch, validate and render everything before replacing any last-good asset.
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -272,7 +278,7 @@ def main() -> int:
     except (ValueError, KeyError, TypeError, OSError, RuntimeError) as error:
         print(f"Profile stats update failed: {error}", file=sys.stderr)
         return 1
-    print(f"Updated three profile SVGs in {args.output_dir}")
+    print(f"Updated four profile SVGs in {args.output_dir}")
     return 0
 
 
