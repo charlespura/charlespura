@@ -8,13 +8,13 @@
 
 **I build web applications that make everyday tasks easier.**
 
-From responsive interfaces to APIs and databases, I enjoy turning an idea into something people can use.
+<img src="./assets/developer-intro.svg" width="640" alt="Full-stack web development: interfaces, APIs, and databases. Always learning. Always building." />
 
 <a href="https://charlespura.onrender.com/"><img src="https://img.shields.io/badge/View_Portfolio-38BDF8?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=0B1220" alt="View my portfolio" /></a>
 <a href="https://www.linkedin.com/in/charlespura"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="Connect with Charles on LinkedIn" /></a>
 <a href="mailto:charles051902pura@gmail.com"><img src="https://img.shields.io/badge/Get_in_Touch-0F766E?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Charles" /></a>
 
-[About](#about-me) · [Projects](#selected-projects) · [Tech stack](#technologies-i-work-with) · [Connect](#lets-connect)
+[About](#about-me) · [Projects](#selected-projects) · [Tech stack](#technologies-i-work-with) · [GitHub activity](#github-activity) · [Connect](#lets-connect)
 
 </div>
 
@@ -67,13 +67,68 @@ A few projects that show how I approach different problems, from managing record
 
 ## Technologies I work with
 
-| Area | Technologies |
-| --- | --- |
-| **Frontend** | JavaScript, TypeScript, React, Angular, Vue.js, HTML, CSS |
-| **Styling** | Tailwind CSS, Bootstrap, Bulma |
-| **Backend & APIs** | PHP, Laravel, Node.js, Express, REST, GraphQL, JWT |
-| **Data** | MySQL, MongoDB, Firebase, Supabase |
-| **Tools & deployment** | Git, GitHub Actions, Docker, Postman, Figma, Vite, Render, Vercel, GitHub Pages |
+### Frontend
+
+<p>
+  <img src="./assets/icons/javascript.svg" width="44" height="44" alt="JavaScript" title="JavaScript" />
+  <img src="./assets/icons/typescript.svg" width="44" height="44" alt="TypeScript" title="TypeScript" />
+  <img src="./assets/icons/react.svg" width="44" height="44" alt="React" title="React" />
+  <img src="./assets/icons/angular.svg" width="44" height="44" alt="Angular" title="Angular" />
+  <img src="./assets/icons/vue.svg" width="44" height="44" alt="Vue.js" title="Vue.js" />
+  <img src="./assets/icons/html.svg" width="44" height="44" alt="HTML" title="HTML" />
+  <img src="./assets/icons/css.svg" width="44" height="44" alt="CSS" title="CSS" />
+</p>
+
+JavaScript · TypeScript · React · Angular · Vue.js · HTML · CSS
+
+### Styling
+
+<p>
+  <img src="./assets/icons/tailwind.svg" width="44" height="44" alt="Tailwind CSS" title="Tailwind CSS" />
+  <img src="./assets/icons/bootstrap.svg" width="44" height="44" alt="Bootstrap" title="Bootstrap" />
+  <img src="./assets/icons/bulma.svg" width="44" height="44" alt="Bulma" title="Bulma" />
+</p>
+
+Tailwind CSS · Bootstrap · Bulma
+
+### Backend & APIs
+
+<p>
+  <img src="./assets/icons/php.svg" width="44" height="44" alt="PHP" title="PHP" />
+  <img src="./assets/icons/laravel.svg" width="44" height="44" alt="Laravel" title="Laravel" />
+  <img src="./assets/icons/nodejs.svg" width="44" height="44" alt="Node.js" title="Node.js" />
+  <img src="./assets/icons/express.svg" width="44" height="44" alt="Express" title="Express" />
+  <img src="./assets/icons/graphql.svg" width="44" height="44" alt="GraphQL" title="GraphQL" />
+</p>
+
+PHP · Laravel · Node.js · Express · GraphQL · REST APIs · JWT authentication
+
+### Data
+
+<p>
+  <img src="./assets/icons/mysql.svg" width="44" height="44" alt="MySQL" title="MySQL" />
+  <img src="./assets/icons/mongodb.svg" width="44" height="44" alt="MongoDB" title="MongoDB" />
+  <img src="./assets/icons/firebase.svg" width="44" height="44" alt="Firebase" title="Firebase" />
+  <img src="./assets/icons/supabase.svg" width="44" height="44" alt="Supabase" title="Supabase" />
+</p>
+
+MySQL · MongoDB · Firebase · Supabase
+
+### Tools & deployment
+
+<p>
+  <img src="./assets/icons/git.svg" width="44" height="44" alt="Git" title="Git" />
+  <img src="./assets/icons/githubactions.svg" width="44" height="44" alt="GitHub Actions" title="GitHub Actions" />
+  <img src="./assets/icons/docker.svg" width="44" height="44" alt="Docker" title="Docker" />
+  <img src="./assets/icons/postman.svg" width="44" height="44" alt="Postman" title="Postman" />
+  <img src="./assets/icons/figma.svg" width="44" height="44" alt="Figma" title="Figma" />
+  <img src="./assets/icons/vite.svg" width="44" height="44" alt="Vite" title="Vite" />
+  <img src="./assets/icons/render.svg" width="44" height="44" alt="Render" title="Render" />
+  <img src="./assets/icons/vercel.svg" width="44" height="44" alt="Vercel" title="Vercel" />
+  <img src="./assets/icons/github.svg" width="44" height="44" alt="GitHub Pages" title="GitHub Pages" />
+</p>
+
+Git · GitHub Actions · Docker · Postman · Figma · Vite · Render · Vercel · GitHub Pages
 
 <details>
   <summary><strong>More technologies I've explored</strong></summary>
@@ -82,9 +137,36 @@ Java, Python, React Native, Expo, Android Studio, Three.js, and jQuery.
 
 </details>
 
-## Beyond the application
+## GitHub activity
 
-I also experiment with tools that support the development workflow. My [GitHub Stats Generator](https://github.com/charlespura/gtihubstats) uses the GitHub API and GitHub Actions to generate SVG dashboards, combining API integration, automation, and GitHub Pages deployment.
+Contributions, coding streaks, and recent activity at a glance.
+
+<p align="center">
+  <a href="https://github.com/charlespura?tab=overview">
+    <img src="./assets/github-stats.svg" width="100%" alt="Charles Pura's GitHub overview: contributions, repositories, followers, and contribution streaks. Date range and update time are shown in the image." />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/charlespura?tab=overview">
+    <img src="./assets/contribution-graph.svg" width="100%" alt="Daily GitHub contributions over the latest 30 days in the published dataset, with dates and contribution counts." />
+  </a>
+</p>
+
+<details>
+  <summary><strong>Explore my contribution calendar</strong></summary>
+
+<p align="center">
+  <a href="https://github.com/charlespura?tab=overview">
+    <img src="./assets/contribution-calendar.svg" width="100%" alt="Contribution calendar for the available history, with a dated square for each day and a color legend for contribution counts." />
+  </a>
+</p>
+
+</details>
+
+[Live stats dashboard](https://charlespura.github.io/gtihubstats/) · [GitHub contribution history](https://github.com/charlespura?tab=overview) · [How I generate the data](https://github.com/charlespura/gtihubstats)
+
+<sub>Charts show the source dataset's update time. Contribution activity includes automated workflow commits.</sub>
 
 ## Let's connect
 

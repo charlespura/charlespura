@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="74" viewBox="0 0 640 74" fill="none" role="img" aria-labelledby="intro-title intro-description">
+  <title id="intro-title">Building for the web, from interface to database</title>
+  <desc id="intro-description">Full-stack web development. Interfaces, APIs, and databases. Always learning. Always building. These phrases rotate with a gentle typing animation. Reduced-motion mode shows the first phrase without animation.</desc>
+  <style>
+    .phrase-first { opacity: 1; }
+    .phrase-next { opacity: 0; }
+    .phrase { animation: phrase 21s linear infinite; }
+    .reveal { animation: reveal 21s steps(32, end) infinite; }
+    .caret { opacity: 0; animation: caret-position 21s steps(32, end) infinite; }
+    .second, .second .reveal, .second .caret { animation-delay: 7s; }
+    .third, .third .reveal, .third .caret { animation-delay: 14s; }
+    @keyframes phrase {
+      0%, 31% { opacity: 1; }
+      32%, 100% { opacity: 0; }
+    }
+    @keyframes reveal {
+      0%, 2% { clip-path: inset(0 100% 0 0) fill-box; }
+      11%, 26% { clip-path: inset(0 0 0 0) fill-box; }
+      31%, 100% { clip-path: inset(0 100% 0 0) fill-box; }
+    }
+    @keyframes caret-position {
+      0%, 2%, 31% { transform: translateX(0); opacity: 0.8; }
+      11%, 26% { transform: translateX(var(--line-width)); opacity: 0.8; }
+      32%, 100% { transform: translateX(0); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .phrase, .reveal, .caret { animation: none; }
+      .phrase-first { opacity: 1; }
+      .phrase-next, .caret { opacity: 0; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="639" height="73" rx="14" fill="#0B1220" stroke="#23374B"/>
+  <path d="M24 27L34 37L24 47" stroke="#2DD4BF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(52 45)" font-family="Consolas, Courier New, monospace" font-size="24" fill="#7DD3FC" aria-hidden="true">
+    <g class="phrase phrase-first" style="--line-width: 374.4px">
+      <text class="reveal" x="0" y="0" textLength="374.4" lengthAdjust="spacingAndGlyphs">Full-stack web development</text>
+      <rect class="caret" x="4" y="-21" width="2" height="25" rx="1" fill="#2DD4BF" opacity="0.8"/>
+    </g>
+    <g class="phrase phrase-next second" style="--line-width: 446.4px">
+      <text class="reveal" x="0" y="0" textLength="446.4" lengthAdjust="spacingAndGlyphs">Interfaces, APIs, and databases</text>
+      <rect class="caret" x="4" y="-21" width="2" height="25" rx="1" fill="#2DD4BF" opacity="0.8"/>
+    </g>
+    <g class="phrase phrase-next third" style="--line-width: 475.2px">
+      <text class="reveal" x="0" y="0" textLength="475.2" lengthAdjust="spacingAndGlyphs">Always learning. Always building.</text>
+      <rect class="caret" x="4" y="-21" width="2" height="25" rx="1" fill="#2DD4BF" opacity="0.8"/>
+    </g>
+  </g>
+
+  <g fill="#475569" aria-hidden="true">
+    <circle cx="584" cy="37" r="3"/>
+    <circle cx="600" cy="37" r="3"/>
+    <circle cx="616" cy="37" r="3"/>
+  </g>
+</svg>

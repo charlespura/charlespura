@@ -1,0 +1,45 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    # Refresh after the source dashboard's usual daily update.
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_profile_stats.py
+      - .github/workflows/update-profile-stats.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-stats-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v7.0.1
+
+      - name: Generate stats and graphs from the published dashboard
+        run: python3 scripts/update_profile_stats.py --output-dir assets
+
+      - name: Commit updated graphics
+        shell: bash
+        run: |
+          git add -- assets/github-stats.svg assets/contribution-graph.svg assets/contribution-calendar.svg
+          if git diff --cached --quiet; then
+            echo "Profile graphics are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh profile stats"
+          git push

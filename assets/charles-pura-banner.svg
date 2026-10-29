@@ -1,6 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="banner-title banner-description">
   <title id="banner-title">Charles Pura — Full-Stack Developer</title>
-  <desc id="banner-description">Charles Pura, a full-stack developer based in Quezon City, Philippines. Web applications. Thoughtful interfaces. A subtle grid and layered code window decorate the dark navy banner.</desc>
+  <desc id="banner-description">Charles Pura, a full-stack developer based in Quezon City, Philippines. Web applications. Thoughtful interfaces. A subtle grid and layered code window decorate the dark navy banner, with gently animated code lines and connection signals.</desc>
+
+  <style>
+    .code-progress { transform-box: fill-box; transform-origin: left center; animation: code-progress 7s ease-in-out infinite; }
+    .code-secondary { animation-delay: 0.5s; }
+    .signal { animation: signal 4s ease-in-out infinite; }
+    .signal-second { animation-delay: 1.2s; }
+    .code-cursor { animation: cursor 2.4s ease-in-out infinite; }
+    @keyframes code-progress {
+      0%, 8%, 100% { transform: scaleX(0.64); opacity: 0.45; }
+      35%, 78% { transform: scaleX(1); opacity: 1; }
+    }
+    @keyframes signal {
+      0%, 100% { opacity: 0.3; }
+      40%, 60% { opacity: 1; }
+    }
+    @keyframes cursor {
+      0%, 100% { opacity: 0.35; }
+      50% { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .code-progress, .signal, .code-cursor { animation: none; }
+    }
+  </style>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
@@ -48,14 +71,15 @@
       <text x="1084" y="106" text-anchor="end" fill="#64748B" font-family="Consolas, Courier New, monospace" font-size="11" letter-spacing="0.8">BUILD / CREATE / REFINE</text>
 
       <path d="M809 157L795 170L809 183M847 157L861 170L847 183M835 151L821 189" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-      <rect x="889" y="157" width="104" height="6" rx="3" fill="#2DD4BF" fill-opacity="0.8"/>
+      <rect class="code-progress" x="889" y="157" width="104" height="6" rx="3" fill="#2DD4BF" fill-opacity="0.8"/>
       <rect x="889" y="172" width="174" height="5" rx="2.5" fill="#334155"/>
-      <rect x="889" y="186" width="132" height="5" rx="2.5" fill="#334155"/>
+      <rect class="code-progress code-secondary" x="889" y="186" width="132" height="5" rx="2.5" fill="#334155"/>
+      <rect class="code-cursor" x="1070" y="168" width="3" height="12" rx="1.5" fill="#2DD4BF"/>
 
       <path d="M795 217H1075" stroke="#23374B"/>
       <path d="M846 246H935M935 246H1024" stroke="#35516A"/>
-      <circle cx="891" cy="246" r="3" fill="#2DD4BF"/>
-      <circle cx="980" cy="246" r="3" fill="#38BDF8"/>
+      <circle class="signal" cx="891" cy="246" r="3" fill="#2DD4BF"/>
+      <circle class="signal signal-second" cx="980" cy="246" r="3" fill="#38BDF8"/>
 
       <rect x="795" y="230" width="67" height="32" rx="6" fill="#11283A" stroke="#25475D"/>
       <rect x="902" y="230" width="67" height="32" rx="6" fill="#102C30" stroke="#24524F"/>
