@@ -157,7 +157,7 @@ Contributions, coding streaks, and recent activity at a glance.
 
 <p align="center">
   <a href="https://github.com/charlespura?tab=overview">
-    <img src="./assets/contribution-snake.svg" width="100%" alt="Animated cyan-and-teal snake growing by one segment for each active square it eats in my contribution calendar. The source date is shown in the image." />
+    <img src="./assets/contribution-snake.svg" width="100%" alt="Animated cyan-and-teal snake moving through my contribution calendar, based on the available daily history. The source date is shown in the image." />
   </a>
 </p>
 

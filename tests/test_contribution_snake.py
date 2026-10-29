@@ -5,7 +5,7 @@ from datetime import date, datetime, timedelta, timezone
 import unittest
 import xml.etree.ElementTree as ET
 
-from scripts.contribution_snake import INITIAL_LENGTH, calendar_route, growth_frames, render_snake
+from scripts.contribution_snake import calendar_route, render_snake
 
 
 @dataclass
@@ -21,44 +21,6 @@ def days_for(count=112, zero=False):
 
 
 class ContributionSnakeTests(unittest.TestCase):
-    def test_eating_adds_one_segment_and_empty_cells_advance_the_tail(self):
-        food = {(0, 0), (0, 3), (1, 6), (3, 2), (4, 6)}
-        path, frames = growth_frames(5, food)
-        self.assertEqual(frames[0].length, INITIAL_LENGTH)
-        eaten = set()
-        for previous, current in zip(frames, frames[1:]):
-            coordinate = path[current.head]
-            eating = coordinate in food
-            if eating:
-                eaten.add(coordinate)
-            self.assertEqual(current.head, previous.head + 1)
-            self.assertEqual(current.ate, eating)
-            self.assertEqual(current.length, previous.length + int(eating))
-            self.assertEqual(current.tail, previous.tail + int(not eating))
-            body = path[current.tail:current.head + 1]
-            self.assertEqual(len(body), INITIAL_LENGTH + len(eaten))
-            self.assertEqual(len(body), len(set(body)), "The growing body must not overlap itself")
-            for left, right in zip(body, body[1:]):
-                self.assertEqual(abs(left[0] - right[0]) + abs(left[1] - right[1]), 1)
-        self.assertEqual(eaten, food)
-        self.assertEqual(frames[-1].length, INITIAL_LENGTH + len(food))
-
-    def test_zero_activity_never_grows_and_dense_activity_has_no_length_cap(self):
-        _, empty_frames = growth_frames(5, set())
-        self.assertTrue(all(frame.length == INITIAL_LENGTH for frame in empty_frames))
-        food = {(column, row) for column in range(54) for row in range(7)}
-        _, dense_frames = growth_frames(54, food)
-        self.assertEqual(dense_frames[-1].length, INITIAL_LENGTH + len(food))
-
-    def test_growth_uses_active_squares_not_individual_contribution_counts(self):
-        days = days_for(30, zero=True)
-        days[4].count, days[4].level = 50, 4
-        svg = render_snake(days, datetime(2026, 10, 28, tzinfo=timezone.utc))
-        self.assertIn("reaching 8 segments", svg)
-        self.assertIn("Empty days do not add length", svg)
-        self.assertIn("@keyframes snake-grow", svg)
-        self.assertIn("@keyframes snake-loop", svg)
-
     def test_route_is_closed_continuous_and_does_not_cross_itself(self):
         for columns in (5, 6, 17, 53, 54):
             with self.subTest(columns=columns):
