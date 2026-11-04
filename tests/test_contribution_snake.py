@@ -47,7 +47,7 @@ class ContributionSnakeTests(unittest.TestCase):
         svg = render_snake(days_for(zero=True), datetime(2026, 10, 28, tzinfo=timezone.utc))
         root = ET.fromstring(svg)
         cells = [node for node in root.iter() if node.get("class") == "calendar-day"]
-        self.assertTrue(all(node.get("fill") == "#17283A" for node in cells))
+        self.assertTrue(all(node.get("fill") == "var(--l0)" for node in cells))
         self.assertIn("prefers-reduced-motion:reduce", svg)
         self.assertIn(".calendar-day{animation:none!important}", svg)
         self.assertIn(".snake-piece{animation:none!important;opacity:0!important}", svg)

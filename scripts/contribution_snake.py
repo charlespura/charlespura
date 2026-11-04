@@ -11,14 +11,11 @@ from datetime import date, datetime, timedelta, timezone
 from html import escape
 import math
 
+if __package__:
+    from .profile_palette import ACCENT as SKY, BG, BORDER, HIGHLIGHT as TEAL, LEVELS, MUTED, SNAKE_COLORS, TEXT as WHITE, THEME_CSS
+else:
+    from profile_palette import ACCENT as SKY, BG, BORDER, HIGHLIGHT as TEAL, LEVELS, MUTED, SNAKE_COLORS, TEXT as WHITE, THEME_CSS
 
-BG = "#0B1220"
-BORDER = "#23374B"
-MUTED = "#94A3B8"
-WHITE = "#F1F5F9"
-SKY = "#38BDF8"
-TEAL = "#2DD4BF"
-LEVELS = ("#17283A", "#16455B", "#14778B", "#1CA6AA", "#2DD4BF")
 SECONDS = 36
 TAIL_LENGTH = 6
 
@@ -90,6 +87,7 @@ def render_snake(days: list, stamp: datetime) -> str:
     total = sum(day.count for day in days)
 
     css = [
+        THEME_CSS,
         ".snake-piece{opacity:0;animation:snake-move 36s linear infinite}",
         "@keyframes snake-move{",
     ]
@@ -110,7 +108,7 @@ def render_snake(days: list, stamp: datetime) -> str:
     css.append("@media(prefers-reduced-motion:reduce){.calendar-day{animation:none!important}.snake-piece{animation:none!important;opacity:0!important}}")
 
     description = (
-        f"A cyan and teal snake travels through the real GitHub contribution calendar from {days[0].when} to {days[-1].when}. "
+        f"A monochrome snake travels through the real GitHub contribution calendar from {days[0].when} to {days[-1].when}. "
         f"The calendar contains {len(days)} days and {total:,} contributions. Squares are consumed for the animation and restored each loop. "
         f"Source as of {stamp.isoformat()}. Reduced-motion mode shows the complete static calendar."
     )
@@ -130,7 +128,7 @@ def render_snake(days: list, stamp: datetime) -> str:
         body.append(_text(x0 - step - 7, y0 + row * step + cell - 1, label, 10, text_anchor="end"))
     body.extend(cells)
     # Negative phase offsets keep the tail behind the head from the first lap.
-    colors = (TEAL, "#2CCEC2", "#2CC6CF", "#30B9E1", SKY, "#2686AE", "#1D607D")
+    colors = SNAKE_COLORS
     for segment in range(TAIL_LENGTH, -1, -1):
         delay = -SECONDS + segment * SECONDS / cycle_steps if segment else 0
         stroke = f' stroke="{WHITE}" stroke-opacity="0.5" stroke-width="1"' if not segment else ""
@@ -139,7 +137,7 @@ def render_snake(days: list, stamp: datetime) -> str:
         )
     body.extend([
         _text(30, height - 21, "A little play, built from real contribution history.", 12),
-        _text(970, height - 21, "CYAN / TEAL", 11, TEAL, text_anchor="end", letter_spacing=1),
+        _text(970, height - 21, "MONOCHROME", 11, TEAL, text_anchor="end", letter_spacing=1),
         "</g></svg>\n",
     ])
     return "\n".join(body)

@@ -10,6 +10,9 @@ on:
     paths:
       - scripts/update_profile_stats.py
       - scripts/contribution_snake.py
+      - scripts/profile_palette.py
+      - assets/charles-pura-banner.svg
+      - assets/developer-intro.svg
       - .github/workflows/update-profile-stats.yml
 
 permissions:
@@ -35,7 +38,7 @@ jobs:
       - name: Commit updated graphics
         shell: bash
         run: |
-          git add -- assets/github-stats.svg assets/contribution-graph.svg assets/contribution-calendar.svg assets/contribution-snake.svg
+          git add -- assets/github-stats.svg assets/contribution-graph.svg assets/contribution-calendar.svg assets/contribution-snake.svg assets/themes/
           if git diff --cached --quiet; then
             echo "Profile graphics are already current."
             exit 0

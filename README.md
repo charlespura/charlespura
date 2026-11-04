@@ -1,20 +1,30 @@
 <div align="center">
 
 <a href="https://charlespura.onrender.com/">
-  <img src="./assets/charles-pura-banner.svg" width="100%" alt="Charles Pura — Full-Stack Developer based in Quezon City, Philippines" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/themes/dark/charles-pura-banner.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/themes/light/charles-pura-banner.svg">
+    <img src="./assets/themes/light/charles-pura-banner.svg" width="100%" alt="Charles Pura — Full-Stack Developer based in Quezon City, Philippines" />
+  </picture>
 </a>
 
 # Hi, I'm Charles Pura
 
 **I build web applications that make everyday tasks easier.**
 
-<img src="./assets/developer-intro.svg" width="640" alt="Full-stack web development: interfaces, APIs, and databases. Always learning. Always building." />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/themes/dark/developer-intro.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/themes/light/developer-intro.svg">
+  <img src="./assets/themes/light/developer-intro.svg" width="640" alt="Full-stack web development: interfaces, APIs, and databases. Always learning. Always building." />
+</picture>
 
-<a href="https://charlespura.onrender.com/"><img src="https://img.shields.io/badge/View_Portfolio-38BDF8?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=0B1220" alt="View my portfolio" /></a>
-<a href="https://www.linkedin.com/in/charlespura"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="Connect with Charles on LinkedIn" /></a>
-<a href="mailto:charles051902pura@gmail.com"><img src="https://img.shields.io/badge/Get_in_Touch-0F766E?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Charles" /></a>
+<a href="https://charlespura.onrender.com/"><img src="https://img.shields.io/badge/View_Portfolio-101114?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=F4F4F2" alt="View my portfolio" /></a>
+<a href="https://www.linkedin.com/in/charlespura"><img src="https://img.shields.io/badge/LinkedIn-101114?style=for-the-badge" alt="Connect with Charles on LinkedIn" /></a>
+<a href="mailto:charles051902pura@gmail.com"><img src="https://img.shields.io/badge/Get_in_Touch-101114?style=for-the-badge&amp;logo=gmail&amp;logoColor=F4F4F2" alt="Email Charles" /></a>
 
 [About](#about-me) · [Projects](#selected-projects) · [Tech stack](#technologies-i-work-with) · [GitHub activity](#github-activity) · [Connect](#lets-connect)
+
+<sub>Artwork follows your GitHub theme. <a href="https://github.com/settings/appearance">Change light / dark mode</a>.</sub>
 
 </div>
 
@@ -143,13 +153,21 @@ Contributions, coding streaks, and recent activity at a glance.
 
 <p align="center">
   <a href="https://github.com/charlespura?tab=overview">
-    <img src="./assets/github-stats.svg" width="100%" alt="Charles Pura's GitHub overview: contributions, repositories, followers, and contribution streaks. Date range and update time are shown in the image." />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/themes/dark/github-stats.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/themes/light/github-stats.svg">
+      <img src="./assets/themes/light/github-stats.svg" width="100%" alt="Charles Pura's GitHub overview: contributions, repositories, followers, and contribution streaks. Date range and update time are shown in the image." />
+    </picture>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/charlespura?tab=overview">
-    <img src="./assets/contribution-graph.svg" width="100%" alt="Daily GitHub contributions over the latest 30 days in the published dataset, with dates and contribution counts." />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/themes/dark/contribution-graph.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/themes/light/contribution-graph.svg">
+      <img src="./assets/themes/light/contribution-graph.svg" width="100%" alt="Daily GitHub contributions over the latest 30 days in the published dataset, with dates and contribution counts." />
+    </picture>
   </a>
 </p>
 
@@ -157,7 +175,11 @@ Contributions, coding streaks, and recent activity at a glance.
 
 <p align="center">
   <a href="https://github.com/charlespura?tab=overview">
-    <img src="./assets/contribution-snake.svg" width="100%" alt="Animated cyan-and-teal snake moving through my contribution calendar, based on the available daily history. The source date is shown in the image." />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/themes/dark/contribution-snake.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/themes/light/contribution-snake.svg">
+      <img src="./assets/themes/light/contribution-snake.svg" width="100%" alt="Animated monochrome snake moving through my contribution calendar, based on the available daily history. The source date is shown in the image." />
+    </picture>
   </a>
 </p>
 
@@ -166,7 +188,11 @@ Contributions, coding streaks, and recent activity at a glance.
 
 <p align="center">
   <a href="https://github.com/charlespura?tab=overview">
-    <img src="./assets/contribution-calendar.svg" width="100%" alt="Contribution calendar for the available history, with a dated square for each day and a color legend for contribution counts." />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/themes/dark/contribution-calendar.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/themes/light/contribution-calendar.svg">
+      <img src="./assets/themes/light/contribution-calendar.svg" width="100%" alt="Contribution calendar for the available history, with a dated square for each day and a color legend for contribution counts." />
+    </picture>
   </a>
 </p>
 

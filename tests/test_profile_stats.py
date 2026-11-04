@@ -88,25 +88,25 @@ class ProfileStatsTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
             stats.generate(snapshot(), root)
-            first = {p.name: p.read_bytes() for p in root.glob("*.svg")}
-            self.assertEqual(len(first), 4)
+            first = {p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob("*.svg")}
+            self.assertEqual(len(first), 12)
             for content in first.values():
                 svg = ET.fromstring(content)
                 self.assertEqual(svg.attrib["role"], "img")
                 self.assertTrue(svg.find("{http://www.w3.org/2000/svg}title").text)
                 self.assertTrue(svg.find("{http://www.w3.org/2000/svg}desc").text)
             stats.generate(snapshot(), root)
-            self.assertEqual(first, {p.name: p.read_bytes() for p in root.glob("*.svg")})
+            self.assertEqual(first, {p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob("*.svg")})
 
     def test_failed_snake_render_preserves_all_graphics(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
             stats.generate(snapshot(), root)
-            before = {p.name: p.read_bytes() for p in root.glob("*.svg")}
+            before = {p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob("*.svg")}
             with patch.object(stats, "render_snake", side_effect=ValueError("Cannot render the snake")):
                 with self.assertRaises(ValueError):
                     stats.generate(snapshot(), root)
-            self.assertEqual(before, {p.name: p.read_bytes() for p in root.glob("*.svg")})
+            self.assertEqual(before, {p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob("*.svg")})
 
     def test_svg_text_is_escaped(self):
         fragment = stats.text(1, 2, '<unsafe> & "quoted"')

@@ -3,6 +3,7 @@
 
 Live: python scripts/update_profile_stats.py
 Saved snapshot: python scripts/update_profile_stats.py --input-json snapshot.json
+Offline theme-only rebuild: python scripts/profile_palette.py --assets-dir assets
 
 Input is the existing gtihubstats stats.json schema: generated_at, user,
 range, contributions.total, streaks, highlights.best_day, and heatmap.days.
@@ -26,18 +27,10 @@ from urllib.request import Request, urlopen
 
 if __package__:
     from .contribution_snake import render_snake
+    from .profile_palette import ACCENT as SKY, BG, BORDER, HIGHLIGHT as TEAL, LEVELS, MUTED, PANEL, TEXT as WHITE, THEME_CSS, theme_variants
 else:
     from contribution_snake import render_snake
-
-
-BG = "#0B1220"
-PANEL = "#101C2D"
-BORDER = "#23374B"
-WHITE = "#F1F5F9"
-MUTED = "#94A3B8"
-SKY = "#38BDF8"
-TEAL = "#2DD4BF"
-LEVELS = ["#17283A", "#16455B", "#14778B", "#1CA6AA", "#2DD4BF"]
+    from profile_palette import ACCENT as SKY, BG, BORDER, HIGHLIGHT as TEAL, LEVELS, MUTED, PANEL, TEXT as WHITE, THEME_CSS, theme_variants
 
 DEFAULT_SOURCE = "https://charlespura.github.io/gtihubstats/stats.json"
 
@@ -122,6 +115,7 @@ def frame(title: str, description: str, height: int, body: list[str]) -> str:
         f'<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="{height}" viewBox="0 0 1000 {height}" fill="none" role="img" aria-labelledby="title description">',
         f"<title id=\"title\">{escape(title)}</title>",
         f"<desc id=\"description\">{escape(description)}</desc>",
+        f"<style>{THEME_CSS}</style>",
         f'<rect x="0.5" y="0.5" width="999" height="{height - 1}" rx="18" fill="{BG}" stroke="{BORDER}"/>',
         '<g font-family="Segoe UI, Arial, sans-serif">',
         *body,
@@ -236,7 +230,7 @@ def calendar_graph(days: list[Day], stamp: datetime) -> str:
         body.append(f'<rect x="{825 + i * 18}" y="318" width="13" height="13" rx="2.5" fill="{color}"/>')
     body.append(text(923, 330, "More", 11))
     body.append(text(30, 360, "Activity follows GitHub's contribution calendar; scheduled automation may also count.", 12))
-    description = f"GitHub contribution calendar from {days[0].when} to {days[-1].when}, with {sum(day.count for day in days):,} contributions. Each square represents one day; brighter squares indicate more activity. Updated {stamp.isoformat()}."
+    description = f"GitHub contribution calendar from {days[0].when} to {days[-1].when}, with {sum(day.count for day in days):,} contributions. Each square represents one day; stronger shades indicate more activity. Updated {stamp.isoformat()}."
     return frame("GitHub contribution calendar", description, 384, body)
 
 
@@ -248,14 +242,23 @@ def generate(snapshot: dict, output_dir: Path) -> None:
         "contribution-calendar.svg": calendar_graph(days, stamp),
         "contribution-snake.svg": render_snake(days, stamp),
     }
+    for filename, svg in list(rendered.items()):
+        rendered.update(theme_variants(filename, svg))
+    # Refresh the static banner and introduction when building the full profile.
+    for filename in ("charles-pura-banner.svg", "developer-intro.svg"):
+        source = output_dir / filename
+        if source.is_file():
+            rendered.update(theme_variants(filename, source.read_text(encoding="utf-8")))
     # Fetch, validate and render everything before replacing any last-good asset.
     output_dir.mkdir(parents=True, exist_ok=True)
     staged = []
     try:
         for filename, content in rendered.items():
-            with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", newline="\n", prefix=".profile-", suffix=".svg", dir=output_dir, delete=False) as handle:
+            target = output_dir / filename
+            target.parent.mkdir(parents=True, exist_ok=True)
+            with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", newline="\n", prefix=".profile-", suffix=".svg", dir=target.parent, delete=False) as handle:
                 handle.write(content)
-                staged.append((Path(handle.name), output_dir / filename))
+                staged.append((Path(handle.name), target))
         for temporary, target in staged:
             temporary.replace(target)
     finally:
@@ -278,7 +281,7 @@ def main() -> int:
     except (ValueError, KeyError, TypeError, OSError, RuntimeError) as error:
         print(f"Profile stats update failed: {error}", file=sys.stderr)
         return 1
-    print(f"Updated four profile SVGs in {args.output_dir}")
+    print(f"Updated profile SVGs and their light/dark variants in {args.output_dir}")
     return 0
 
 
