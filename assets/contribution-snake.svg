@@ -173,7 +173,7 @@
 @keyframes day-20{0%,18.0556%{fill:var(--l1)}18.0557%,88.1944%{fill:var(--l0)}88.1945%,100%{fill:var(--l1)}}
 @keyframes day-21{0%,17.3611%{fill:var(--l2)}17.3612%,88.1944%{fill:var(--l0)}88.1945%,100%{fill:var(--l2)}}
 @keyframes day-22{0%,16.6667%{fill:var(--l2)}16.6668%,88.1944%{fill:var(--l0)}88.1945%,100%{fill:var(--l2)}}
-@keyframes day-23{0%,15.9722%{fill:var(--text)}15.9723%,88.1944%{fill:var(--l0)}88.1945%,100%{fill:var(--text)}}
+@keyframes day-23{0%,15.9722%{fill:var(--l4)}15.9723%,88.1944%{fill:var(--l0)}88.1945%,100%{fill:var(--l4)}}
 @keyframes day-24{0%,15.2778%{fill:var(--l2)}15.2779%,88.1944%{fill:var(--l0)}88.1945%,100%{fill:var(--l2)}}
 @keyframes day-25{0%,20.1389%{fill:var(--l1)}20.1390%,88.1944%{fill:var(--l0)}88.1945%,100%{fill:var(--l1)}}
 @keyframes day-26{0%,20.8333%{fill:var(--l2)}20.8334%,88.1944%{fill:var(--l0)}88.1945%,100%{fill:var(--l2)}}
@@ -295,7 +295,7 @@
 <rect class="calendar-day" x="359.000" y="160.000" width="22.000" height="22.000" rx="2.5" fill="var(--l1)" style="animation:day-20 36s steps(1,end) infinite"><title>2026-08-04: 6 contributions</title></rect>
 <rect class="calendar-day" x="359.000" y="186.000" width="22.000" height="22.000" rx="2.5" fill="var(--l2)" style="animation:day-21 36s steps(1,end) infinite"><title>2026-08-05: 13 contributions</title></rect>
 <rect class="calendar-day" x="359.000" y="212.000" width="22.000" height="22.000" rx="2.5" fill="var(--l2)" style="animation:day-22 36s steps(1,end) infinite"><title>2026-08-06: 15 contributions</title></rect>
-<rect class="calendar-day" x="359.000" y="238.000" width="22.000" height="22.000" rx="2.5" fill="var(--text)" style="animation:day-23 36s steps(1,end) infinite"><title>2026-08-07: 45 contributions</title></rect>
+<rect class="calendar-day" x="359.000" y="238.000" width="22.000" height="22.000" rx="2.5" fill="var(--l4)" style="animation:day-23 36s steps(1,end) infinite"><title>2026-08-07: 45 contributions</title></rect>
 <rect class="calendar-day" x="359.000" y="264.000" width="22.000" height="22.000" rx="2.5" fill="var(--l2)" style="animation:day-24 36s steps(1,end) infinite"><title>2026-08-08: 13 contributions</title></rect>
 <rect class="calendar-day" x="385.000" y="108.000" width="22.000" height="22.000" rx="2.5" fill="var(--l1)" style="animation:day-25 36s steps(1,end) infinite"><title>2026-08-09: 1 contributions</title></rect>
 <rect class="calendar-day" x="385.000" y="134.000" width="22.000" height="22.000" rx="2.5" fill="var(--l2)" style="animation:day-26 36s steps(1,end) infinite"><title>2026-08-10: 21 contributions</title></rect>
