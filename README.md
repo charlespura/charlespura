@@ -143,6 +143,16 @@ Git · GitHub Actions · Docker · Postman · Figma · Vite · Render · Vercel 
 <details>
   <summary><strong>More technologies I've explored</strong></summary>
 
+<p>
+  <img src="./assets/icons/java.svg" width="44" height="44" alt="Java" title="Java" />
+  <img src="./assets/icons/python.svg" width="44" height="44" alt="Python" title="Python" />
+  <img src="./assets/icons/react.svg" width="44" height="44" alt="React Native" title="React Native" />
+  <img src="./assets/icons/expo.svg" width="44" height="44" alt="Expo" title="Expo" />
+  <img src="./assets/icons/androidstudio.svg" width="44" height="44" alt="Android Studio" title="Android Studio" />
+  <img src="./assets/icons/threejs.svg" width="44" height="44" alt="Three.js" title="Three.js" />
+  <img src="./assets/icons/jquery.svg" width="44" height="44" alt="jQuery" title="jQuery" />
+</p>
+
 Java, Python, React Native, Expo, Android Studio, Three.js, and jQuery.
 
 </details>
