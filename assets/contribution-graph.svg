@@ -1,57 +1,57 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="324" viewBox="0 0 1000 324" fill="none" role="img" aria-labelledby="title description">
 <title id="title">Recent GitHub contribution activity</title>
-<desc id="description">Daily contributions for 2026-10-24 through 2026-11-22. Total 126; peak 13 contributions in a day. 2026-10-24: 7; 2026-10-25: 1; 2026-10-26: 5; 2026-10-27: 4; 2026-10-28: 1; 2026-10-29: 4; 2026-10-30: 4; 2026-10-31: 1; 2026-11-01: 6; 2026-11-02: 5; 2026-11-03: 6; 2026-11-04: 1; 2026-11-05: 1; 2026-11-06: 6; 2026-11-07: 2; 2026-11-08: 6; 2026-11-09: 6; 2026-11-10: 4; 2026-11-11: 1; 2026-11-12: 2; 2026-11-13: 10; 2026-11-14: 1; 2026-11-15: 1; 2026-11-16: 11; 2026-11-17: 4; 2026-11-18: 7; 2026-11-19: 5; 2026-11-20: 13; 2026-11-21: 1; 2026-11-22: 0</desc>
+<desc id="description">Daily contributions for 2026-10-25 through 2026-11-23. Total 140; peak 21 contributions in a day. 2026-10-25: 1; 2026-10-26: 5; 2026-10-27: 4; 2026-10-28: 1; 2026-10-29: 4; 2026-10-30: 4; 2026-10-31: 1; 2026-11-01: 6; 2026-11-02: 5; 2026-11-03: 6; 2026-11-04: 1; 2026-11-05: 1; 2026-11-06: 6; 2026-11-07: 2; 2026-11-08: 6; 2026-11-09: 6; 2026-11-10: 4; 2026-11-11: 1; 2026-11-12: 2; 2026-11-13: 10; 2026-11-14: 1; 2026-11-15: 1; 2026-11-16: 11; 2026-11-17: 4; 2026-11-18: 7; 2026-11-19: 5; 2026-11-20: 13; 2026-11-21: 1; 2026-11-22: 21; 2026-11-23: 0</desc>
 <style>:root{--bg:#0B0D10;--panel:#111419;--soft:#181C22;--text:#F4F4F2;--muted:#A6ABB4;--detail:#D8DADE;--line:rgba(255,255,255,0.13);--edge:rgba(255,255,255,0.3);--l0:#181C22;--l1:#3B3F46;--l2:#656971;--l3:#A6ABB4;--l4:#F4F4F2;--s0:#F4F4F2;--s1:#D8DADE;--s2:#C5C8CD;--s3:#A6ABB4;--s4:#92969E;--s5:#737984;--s6:#656971}@media(prefers-color-scheme:light){:root{--bg:#F4F4F1;--panel:#FFFFFF;--soft:#F0F0ED;--text:#101114;--muted:#656971;--detail:#656971;--line:rgba(16,17,20,0.14);--edge:rgba(16,17,20,0.3);--l0:#F0F0ED;--l1:#C5C8CD;--l2:#92969E;--l3:#656971;--l4:#101114;--s0:#101114;--s1:#282A30;--s2:#41454D;--s3:#656971;--s4:#737984;--s5:#92969E;--s6:#A6ABB4}}</style>
 <rect x="0.5" y="0.5" width="999" height="323" rx="18" fill="var(--bg)" stroke="var(--line)"/>
 <g font-family="Segoe UI, Arial, sans-serif">
 <text x="30" y="38" fill="var(--muted)" font-size="13" font-weight="600" letter-spacing="1.7">30 DAYS OF CONTRIBUTIONS</text>
-<text x="970" y="38" fill="var(--text)" font-size="13" text-anchor="end">126 contributions · 29 active days</text>
-<text x="30" y="68" fill="var(--muted)" font-size="13" >24 Oct — 22 Nov 2026</text>
+<text x="970" y="38" fill="var(--text)" font-size="13" text-anchor="end">140 contributions · 29 active days</text>
+<text x="30" y="68" fill="var(--muted)" font-size="13" >25 Oct — 23 Nov 2026</text>
 <path d="M64 240H968" stroke="var(--line)" stroke-dasharray="3 5"/>
 <text x="52" y="244" fill="var(--muted)" font-size="11" text-anchor="end">0</text>
 <path d="M64 205H968" stroke="var(--line)" stroke-dasharray="3 5"/>
-<text x="52" y="209" fill="var(--muted)" font-size="11" text-anchor="end">4</text>
+<text x="52" y="209" fill="var(--muted)" font-size="11" text-anchor="end">6</text>
 <path d="M64 170H968" stroke="var(--line)" stroke-dasharray="3 5"/>
-<text x="52" y="174" fill="var(--muted)" font-size="11" text-anchor="end">8</text>
+<text x="52" y="174" fill="var(--muted)" font-size="11" text-anchor="end">12</text>
 <path d="M64 135H968" stroke="var(--line)" stroke-dasharray="3 5"/>
-<text x="52" y="139" fill="var(--muted)" font-size="11" text-anchor="end">12</text>
+<text x="52" y="139" fill="var(--muted)" font-size="11" text-anchor="end">18</text>
 <path d="M64 100H968" stroke="var(--line)" stroke-dasharray="3 5"/>
-<text x="52" y="104" fill="var(--muted)" font-size="11" text-anchor="end">16</text>
-<rect x="67.00" y="178.75" width="24.13" height="61.25" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-24: 7 contributions</title></rect>
-<text x="79.0667" y="265" fill="var(--muted)" font-size="11" text-anchor="middle">24 Oct</text>
-<rect x="97.13" y="231.25" width="24.13" height="8.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-25: 1 contributions</title></rect>
-<rect x="127.27" y="196.25" width="24.13" height="43.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-26: 5 contributions</title></rect>
-<rect x="157.40" y="205.00" width="24.13" height="35.00" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-27: 4 contributions</title></rect>
-<rect x="187.53" y="231.25" width="24.13" height="8.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-28: 1 contributions</title></rect>
-<rect x="217.67" y="205.00" width="24.13" height="35.00" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-29: 4 contributions</title></rect>
-<rect x="247.80" y="205.00" width="24.13" height="35.00" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-30: 4 contributions</title></rect>
-<rect x="277.93" y="231.25" width="24.13" height="8.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-31: 1 contributions</title></rect>
-<text x="290" y="265" fill="var(--muted)" font-size="11" text-anchor="middle">31 Oct</text>
-<rect x="308.07" y="187.50" width="24.13" height="52.50" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-01: 6 contributions</title></rect>
-<rect x="338.20" y="196.25" width="24.13" height="43.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-02: 5 contributions</title></rect>
-<rect x="368.33" y="187.50" width="24.13" height="52.50" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-03: 6 contributions</title></rect>
-<rect x="398.47" y="231.25" width="24.13" height="8.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-04: 1 contributions</title></rect>
-<rect x="428.60" y="231.25" width="24.13" height="8.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-05: 1 contributions</title></rect>
-<rect x="458.73" y="187.50" width="24.13" height="52.50" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-06: 6 contributions</title></rect>
-<rect x="488.87" y="222.50" width="24.13" height="17.50" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-07: 2 contributions</title></rect>
-<text x="500.933" y="265" fill="var(--muted)" font-size="11" text-anchor="middle">07 Nov</text>
-<rect x="519.00" y="187.50" width="24.13" height="52.50" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-08: 6 contributions</title></rect>
-<rect x="549.13" y="187.50" width="24.13" height="52.50" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-09: 6 contributions</title></rect>
-<rect x="579.27" y="205.00" width="24.13" height="35.00" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-10: 4 contributions</title></rect>
-<rect x="609.40" y="231.25" width="24.13" height="8.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-11: 1 contributions</title></rect>
-<rect x="639.53" y="222.50" width="24.13" height="17.50" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-12: 2 contributions</title></rect>
-<rect x="669.67" y="152.50" width="24.13" height="87.50" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-13: 10 contributions</title></rect>
-<rect x="699.80" y="231.25" width="24.13" height="8.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-14: 1 contributions</title></rect>
-<text x="711.867" y="265" fill="var(--muted)" font-size="11" text-anchor="middle">14 Nov</text>
-<rect x="729.93" y="231.25" width="24.13" height="8.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-15: 1 contributions</title></rect>
-<rect x="760.07" y="143.75" width="24.13" height="96.25" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-16: 11 contributions</title></rect>
-<rect x="790.20" y="205.00" width="24.13" height="35.00" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-17: 4 contributions</title></rect>
-<rect x="820.33" y="178.75" width="24.13" height="61.25" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-18: 7 contributions</title></rect>
-<rect x="850.47" y="196.25" width="24.13" height="43.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-19: 5 contributions</title></rect>
-<rect x="880.60" y="126.25" width="24.13" height="113.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-20: 13 contributions</title></rect>
-<rect x="910.73" y="231.25" width="24.13" height="8.75" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-21: 1 contributions</title></rect>
-<rect x="940.87" y="240.00" width="24.13" height="2.00" rx="3" fill="var(--text)" opacity="0.18"><title>2026-11-22: 0 contributions</title></rect>
-<text x="952.933" y="265" fill="var(--muted)" font-size="11" text-anchor="middle">22 Nov</text>
+<text x="52" y="104" fill="var(--muted)" font-size="11" text-anchor="end">24</text>
+<rect x="67.00" y="234.17" width="24.13" height="5.83" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-25: 1 contributions</title></rect>
+<text x="79.0667" y="265" fill="var(--muted)" font-size="11" text-anchor="middle">25 Oct</text>
+<rect x="97.13" y="210.83" width="24.13" height="29.17" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-26: 5 contributions</title></rect>
+<rect x="127.27" y="216.67" width="24.13" height="23.33" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-27: 4 contributions</title></rect>
+<rect x="157.40" y="234.17" width="24.13" height="5.83" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-28: 1 contributions</title></rect>
+<rect x="187.53" y="216.67" width="24.13" height="23.33" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-29: 4 contributions</title></rect>
+<rect x="217.67" y="216.67" width="24.13" height="23.33" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-30: 4 contributions</title></rect>
+<rect x="247.80" y="234.17" width="24.13" height="5.83" rx="3" fill="var(--muted)" opacity="1"><title>2026-10-31: 1 contributions</title></rect>
+<rect x="277.93" y="205.00" width="24.13" height="35.00" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-01: 6 contributions</title></rect>
+<text x="290" y="265" fill="var(--muted)" font-size="11" text-anchor="middle">01 Nov</text>
+<rect x="308.07" y="210.83" width="24.13" height="29.17" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-02: 5 contributions</title></rect>
+<rect x="338.20" y="205.00" width="24.13" height="35.00" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-03: 6 contributions</title></rect>
+<rect x="368.33" y="234.17" width="24.13" height="5.83" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-04: 1 contributions</title></rect>
+<rect x="398.47" y="234.17" width="24.13" height="5.83" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-05: 1 contributions</title></rect>
+<rect x="428.60" y="205.00" width="24.13" height="35.00" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-06: 6 contributions</title></rect>
+<rect x="458.73" y="228.33" width="24.13" height="11.67" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-07: 2 contributions</title></rect>
+<rect x="488.87" y="205.00" width="24.13" height="35.00" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-08: 6 contributions</title></rect>
+<text x="500.933" y="265" fill="var(--muted)" font-size="11" text-anchor="middle">08 Nov</text>
+<rect x="519.00" y="205.00" width="24.13" height="35.00" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-09: 6 contributions</title></rect>
+<rect x="549.13" y="216.67" width="24.13" height="23.33" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-10: 4 contributions</title></rect>
+<rect x="579.27" y="234.17" width="24.13" height="5.83" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-11: 1 contributions</title></rect>
+<rect x="609.40" y="228.33" width="24.13" height="11.67" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-12: 2 contributions</title></rect>
+<rect x="639.53" y="181.67" width="24.13" height="58.33" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-13: 10 contributions</title></rect>
+<rect x="669.67" y="234.17" width="24.13" height="5.83" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-14: 1 contributions</title></rect>
+<rect x="699.80" y="234.17" width="24.13" height="5.83" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-15: 1 contributions</title></rect>
+<text x="711.867" y="265" fill="var(--muted)" font-size="11" text-anchor="middle">15 Nov</text>
+<rect x="729.93" y="175.83" width="24.13" height="64.17" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-16: 11 contributions</title></rect>
+<rect x="760.07" y="216.67" width="24.13" height="23.33" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-17: 4 contributions</title></rect>
+<rect x="790.20" y="199.17" width="24.13" height="40.83" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-18: 7 contributions</title></rect>
+<rect x="820.33" y="210.83" width="24.13" height="29.17" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-19: 5 contributions</title></rect>
+<rect x="850.47" y="164.17" width="24.13" height="75.83" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-20: 13 contributions</title></rect>
+<rect x="880.60" y="234.17" width="24.13" height="5.83" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-21: 1 contributions</title></rect>
+<rect x="910.73" y="117.50" width="24.13" height="122.50" rx="3" fill="var(--muted)" opacity="1"><title>2026-11-22: 21 contributions</title></rect>
+<rect x="940.87" y="240.00" width="24.13" height="2.00" rx="3" fill="var(--text)" opacity="0.18"><title>2026-11-23: 0 contributions</title></rect>
+<text x="952.933" y="265" fill="var(--muted)" font-size="11" text-anchor="middle">23 Nov</text>
 <text x="30" y="303" fill="var(--muted)" font-size="12" >Daily totals from GitHub&#x27;s contribution calendar; contributions include more than commits.</text>
-<text x="970" y="303" fill="var(--muted)" font-size="11" text-anchor="end">UTC · 2026-11-22</text>
+<text x="970" y="303" fill="var(--muted)" font-size="11" text-anchor="end">UTC · 2026-11-23</text>
 </g></svg>
